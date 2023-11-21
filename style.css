@@ -78,6 +78,7 @@ Theme URI:  http://htmlbeans.com/html/paradise
 
 ---------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Arizonia|Oswald:300,400,500,600,700|Playfair+Display:400,700|Poppins:300,400,500,600,700,800");
+
 .clearfix:after {
   content: '';
   display: block;
@@ -125,7 +126,9 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   outline: none;
   text-decoration: none;
 }
@@ -662,7 +665,7 @@ table {
   margin-bottom: 15px;
 }
 
-table > thead > tr > th {
+table>thead>tr>th {
   border-top: 1px solid #dbdbdb;
   border: 1px solid #dbdbdb;
   line-height: 2.5;
@@ -673,7 +676,7 @@ table > thead > tr > th {
   vertical-align: bottom;
 }
 
-table > thead > tr > td {
+table>thead>tr>td {
   border-top: 1px solid #dbdbdb;
   border: 1px solid #dbdbdb;
   line-height: 2.5;
@@ -682,15 +685,15 @@ table > thead > tr > td {
   vertical-align: top;
 }
 
-table > thead:first-child > tr:first-child > th {
+table>thead:first-child>tr:first-child>th {
   border-bottom: 0;
 }
 
-table > thead:first-child > tr:first-child > td {
+table>thead:first-child>tr:first-child>td {
   border-bottom: 0;
 }
 
-table > tbody > tr > th {
+table>tbody>tr>th {
   border-top: 1px solid #dbdbdb;
   border: 1px solid #dbdbdb;
   line-height: 2.5;
@@ -699,7 +702,7 @@ table > tbody > tr > th {
   vertical-align: top;
 }
 
-table > tbody > tr > td {
+table>tbody>tr>td {
   border-top: 1px solid #dbdbdb;
   border: 1px solid #dbdbdb;
   line-height: 2.5;
@@ -708,11 +711,11 @@ table > tbody > tr > td {
   vertical-align: top;
 }
 
-table > tbody + tbody {
+table>tbody+tbody {
   border-top: 2px solid #dbdbdb;
 }
 
-table > tfoot > tr > th {
+table>tfoot>tr>th {
   border-top: 1px solid #dbdbdb;
   border: 1px solid #dbdbdb;
   line-height: 2.5;
@@ -721,7 +724,7 @@ table > tfoot > tr > th {
   vertical-align: top;
 }
 
-table > tfoot > tr > td {
+table>tfoot>tr>td {
   border-top: 1px solid #dbdbdb;
   border: 1px solid #dbdbdb;
   line-height: 2.5;
@@ -736,19 +739,19 @@ table thead tr th {
   text-transform: capitalize;
 }
 
-table > caption + thead > tr:first-child > th {
+table>caption+thead>tr:first-child>th {
   border-bottom: 0;
 }
 
-table > caption + thead > tr:first-child > td {
+table>caption+thead>tr:first-child>td {
   border-bottom: 0;
 }
 
-table > colgroup + thead > tr:first-child > th {
+table>colgroup+thead>tr:first-child>th {
   border-bottom: 0;
 }
 
-table > colgroup + thead > tr:first-child > td {
+table>colgroup+thead>tr:first-child>td {
   border-bottom: 0;
 }
 
@@ -756,51 +759,51 @@ th {
   text-align: left;
 }
 
-.table > caption + thead > tr:first-child > th {
+.table>caption+thead>tr:first-child>th {
   border-top: 1px solid #dbdbdb;
 }
 
-.table > caption + thead > tr:first-child > td {
+.table>caption+thead>tr:first-child>td {
   border-top: 1px solid #dbdbdb;
 }
 
-.table > colgroup + thead > tr:first-child > th {
+.table>colgroup+thead>tr:first-child>th {
   border-top: 1px solid #dbdbdb;
 }
 
-.table > colgroup + thead > tr:first-child > td {
+.table>colgroup+thead>tr:first-child>td {
   border-top: 1px solid #dbdbdb;
 }
 
-.table > thead:first-child > tr:first-child > th {
+.table>thead:first-child>tr:first-child>th {
   border-top: 1px solid #dbdbdb;
 }
 
-.table > thead:first-child > tr:first-child > td {
+.table>thead:first-child>tr:first-child>td {
   border-top: 1px solid #dbdbdb;
 }
 
-.table > thead > tr > th {
+.table>thead>tr>th {
   padding: 6px 10px;
 }
 
-.table > thead > tr > td {
+.table>thead>tr>td {
   padding: 6px 10px;
 }
 
-.table > tbody > tr > th {
+.table>tbody>tr>th {
   padding: 6px 10px;
 }
 
-.table > tbody > tr > td {
+.table>tbody>tr>td {
   padding: 6px 10px;
 }
 
-.table > tfoot > tr > th {
+.table>tfoot>tr>th {
   padding: 6px 10px;
 }
 
-.table > tfoot > tr > td {
+.table>tfoot>tr>td {
   padding: 6px 10px;
 }
 
@@ -909,7 +912,7 @@ address {
   display: none;
 }
 
-.hb-radio input[type=radio] + label:before {
+.hb-radio input[type=radio]+label:before {
   top: 4px;
   left: 0;
   color: #373542;
@@ -922,7 +925,7 @@ address {
   content: '';
 }
 
-.hb-radio input[type=radio]:checked + label:before {
+.hb-radio input[type=radio]:checked+label:before {
   content: '\f046';
 }
 
@@ -947,7 +950,7 @@ address {
   display: none;
 }
 
-.hb-checkbox input[type=checkbox] + label:before {
+.hb-checkbox input[type=checkbox]+label:before {
   top: 4px;
   left: 0;
   color: #373542;
@@ -959,7 +962,7 @@ address {
   font-weight: 900;
 }
 
-.hb-checkbox input[type=checkbox]:checked + label:before {
+.hb-checkbox input[type=checkbox]:checked+label:before {
   content: '\f046';
 }
 
@@ -1076,7 +1079,7 @@ address {
   background: -ms-linear-gradient(left, #c0bfda 0%, #c0bfda 100%);
   background: -webkit-gradient(linear, left top, right top, from(#c0bfda), to(#c0bfda));
   background: linear-gradient(to right, #c0bfda 0%, #c0bfda 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0bfda', endColorstr='#c0bfda', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c0bfda', endColorstr='#c0bfda', GradientType=1);
 }
 
 .hb-socialicons.hb-socialicons-sm li a:hover {
@@ -1155,22 +1158,22 @@ address {
   margin-left: 0;
 }
 
-.row.no-gutters > [class^="col-"] {
+.row.no-gutters>[class^="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
 
-.row.no-gutters > [class*="col-"] {
+.row.no-gutters>[class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
 
-.no-gutters > [class^="col-"] {
+.no-gutters>[class^="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
 
-.no-gutters > [class*="col-"] {
+.no-gutters>[class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -1661,7 +1664,7 @@ address {
   padding-left: 0;
 }
 
-.fa-ul > li {
+.fa-ul>li {
   position: relative;
 }
 
@@ -1718,6 +1721,7 @@ address {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -1729,6 +1733,7 @@ address {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -5148,7 +5153,8 @@ readers do not read off random characters that represent icons */
   width: 1px;
 }
 
-.sr-only-focusable:active, .sr-only-focusable:focus {
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -5471,7 +5477,7 @@ body {
   display: block;
 }
 
-.hb-navigation > ul {
+.hb-navigation>ul {
   width: 100%;
   float: left;
   list-style: none;
@@ -5479,7 +5485,7 @@ body {
   line-height: inherit;
 }
 
-.hb-navigation > ul > li {
+.hb-navigation>ul>li {
   width: auto;
   cursor: pointer;
   padding: 40px 16px;
@@ -5488,13 +5494,13 @@ body {
   text-transform: uppercase;
 }
 
-.hb-navigation > ul > li:hover .sub-menu {
+.hb-navigation>ul>li:hover .sub-menu {
   top: 100px;
   opacity: 1;
   visibility: visible;
 }
 
-.hb-navigation > ul > li:hover .mega-menu {
+.hb-navigation>ul>li:hover .mega-menu {
   top: 100px;
   opacity: 1;
   visibility: visible;
@@ -5664,7 +5670,7 @@ body {
   background: -ms-linear-gradient(left, #2d2c40 0%, #2d2c40 100%);
   background: -webkit-gradient(linear, left top, right top, from(#2d2c40), to(#2d2c40));
   background: linear-gradient(to right, #2d2c40 0%, #2d2c40 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$clr1', endColorstr='$clr1', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$clr1', endColorstr='$clr1', GradientType=1);
 }
 
 .hb-total {
@@ -5740,15 +5746,15 @@ body {
   float: left;
 }
 
-.v2 .hb-navigation > ul > li {
+.v2 .hb-navigation>ul>li {
   padding: 20px 16px;
 }
 
-.v2 .hb-navigation > ul > li:first-child {
+.v2 .hb-navigation>ul>li:first-child {
   padding-left: 0;
 }
 
-.v2 .hb-navigation > ul > li:hover .sub-menu {
+.v2 .hb-navigation>ul>li:hover .sub-menu {
   top: 58px;
 }
 
@@ -6436,7 +6442,9 @@ body {
   border: 2px solid;
 }
 
-.hb-footer.v3 .hb-socialicons li a:hover, .hb-footer.v3 .hb-socialicons li a:focus, .hb-footer.v3 .hb-socialicons li a:active {
+.hb-footer.v3 .hb-socialicons li a:hover,
+.hb-footer.v3 .hb-socialicons li a:focus,
+.hb-footer.v3 .hb-socialicons li a:active {
   background: #fff;
 }
 
@@ -6600,7 +6608,7 @@ body {
 			Home Slider Style					
 ============================================= */
 .hb-homeslider.v2 {
-  background: #fefefe;
+  background: #F5F5DC;
 }
 
 .hb-homeslider.v2 .hb-sliderimg {
@@ -6836,8 +6844,9 @@ body {
   position: absolute;
   margin: 0 0 0 -110px;
   border-radius: 100%;
-  
-  border: 10px solid   rgba(212, 175, 55, 0.6);;
+
+  border: 10px solid rgba(212, 175, 55, 0.6);
+  ;
   /* border: 10px solid rgba(225, 225, 225, 0.7); */
 }
 
@@ -7021,9 +7030,10 @@ body {
 			Pricing box Style					
 ============================================= */
 
-.hb-pricingplan{
-  background-color: #f5f5f9 ;
+.hb-pricingplan {
+  background-color: #f5f5f9;
 }
+
 .hb-pricingbox {
   float: left;
   width: 100%;
@@ -7052,7 +7062,7 @@ body {
   position: absolute;
   border-radius: 100%;
   margin: 0 0 0 -124px;
-   border: 10px solid rgba(212, 175, 55, 0.6)
+  border: 10px solid rgba(212, 175, 55, 0.6)
 }
 
 
@@ -7065,8 +7075,8 @@ body {
   position: absolute;
   border-radius: 100%;
   margin: 0 0 0 -124px;
-   border: 10px solid  rgb(0, 100, 0);
-   cursor: pointer;
+  border: 10px solid rgb(0, 100, 0);
+  cursor: pointer;
 }
 
 
@@ -7158,9 +7168,9 @@ body {
 }
 
 .hb-pricingbox:hover .hb-pricinglist li {
- 
+
   color: White;
- 
+
 }
 
 .hb-pricingbox.active h3 {
@@ -7168,9 +7178,9 @@ body {
 }
 
 .hb-pricingbox:hover .pricingcontent h3 {
- 
+
   color: White;
- 
+
 }
 
 
@@ -7328,7 +7338,7 @@ body {
 }
 
 .hb-appointment.v4 .hb-sectiontitle:after {
-  background-color: #f5f5f9;
+  background-color: #F5F5DC;
 }
 
 .hb-appointment.v4 .hb-appointmentcontent .hb-description {
@@ -7584,7 +7594,7 @@ body {
 			Blog Style					
 ============================================= */
 .hb-blog {
-  background: #fff;
+  background: #F5F5DC;
 }
 
 .hb-blog.v4 .hb-post {
@@ -7668,7 +7678,8 @@ body {
   text-decoration: underline;
 }
 
-.hb-postcategory:hover, .hb-postcategory:focus {
+.hb-postcategory:hover,
+.hb-postcategory:focus {
   text-decoration: underline;
 }
 
@@ -7743,7 +7754,7 @@ body {
   margin: 5px;
   border-radius: 50%;
   position: absolute;
-  border: 2px dashed  #D4AF37;
+  border: 2px dashed #D4AF37;
 }
 
 .hb-paradiseiconbox i {
@@ -8079,10 +8090,10 @@ body {
   background-size: cover;
   background-image: url("./images/services-img02.jpg");
   background-repeat: no-repeat;
- 
+
   /* height: 30vh; */
 
-  
+
 }
 
 .hb-innerbanner-area {
@@ -9423,7 +9434,7 @@ body {
   min-height: 100vh;
 }
 
-.search-popup .holder > * {
+.search-popup .holder>* {
   white-space: normal;
   display: inline-block;
   vertical-align: middle;
@@ -11246,14 +11257,17 @@ body {
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
+
   10% {
     width: 6.250em;
     height: 6.250em;
   }
+
   66% {
     width: 2.4em;
     height: 2.4em;
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -11267,14 +11281,17 @@ body {
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
+
   10% {
     width: 6.250em;
     height: 6.250em;
   }
+
   66% {
     width: 2.4em;
     height: 2.4em;
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -11288,6 +11305,7 @@ body {
     opacity: .1;
     width: 2.4em;
   }
+
   77% {
     opacity: 1;
     width: 0;
@@ -11299,6 +11317,7 @@ body {
     opacity: .1;
     width: 2.4em;
   }
+
   77% {
     opacity: 1;
     width: 0;
@@ -11310,6 +11329,7 @@ body {
     opacity: .1;
     height: 2.4em;
   }
+
   77% {
     opacity: 1;
     height: 0;
@@ -11321,6 +11341,7 @@ body {
     opacity: .1;
     height: 2.4em;
   }
+
   77% {
     opacity: 1;
     height: 0;
@@ -11332,10 +11353,12 @@ body {
     opacity: 0;
     border-radius: 0%;
   }
+
   55% {
     opacity: .6;
     border-radius: 100%;
   }
+
   66% {
     opacity: 0;
   }
@@ -11346,10 +11369,12 @@ body {
     opacity: 0;
     border-radius: 0%;
   }
+
   55% {
     opacity: .6;
     border-radius: 100%;
   }
+
   66% {
     opacity: 0;
   }
