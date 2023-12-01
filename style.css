@@ -1286,8 +1286,7 @@ address {
   width: 280px;
   height: 2px;
   position: absolute;
-  /* background: #c1bfda; */
-  background: #006400;
+  background-color: #8BA8A8;
   margin: 0 0 0 -140px;
 }
 
@@ -1517,7 +1516,7 @@ address {
 }
 
 .hb-bg {
-  background: #f5f5f9;
+  /* background: #f5f5f9; */
 }
 
 .hb-bg .hb-sectiontitle:after {
@@ -7022,7 +7021,7 @@ body {
 ============================================= */
 
 .hb-pricingplan{
-  background-color: #f5f5f9 ;
+  /* background-color: #f5f5f9 ; */
 }
 .hb-pricingbox {
   float: left;
@@ -7065,7 +7064,7 @@ body {
   position: absolute;
   border-radius: 100%;
   margin: 0 0 0 -124px;
-   border: 10px solid  rgb(0, 100, 0);
+   border: 10px solid #8BA8A8 ;
    cursor: pointer;
 }
 
@@ -7584,7 +7583,7 @@ body {
 			Blog Style					
 ============================================= */
 .hb-blog {
-  background: #fff;
+  /* background: #fff; */
 }
 
 .hb-blog.v4 .hb-post {
@@ -7743,7 +7742,7 @@ body {
   margin: 5px;
   border-radius: 50%;
   position: absolute;
-  border: 2px dashed  #D4AF37;
+  border: 2px dashed  #ffffff;
 }
 
 .hb-paradiseiconbox i {
@@ -8569,7 +8568,7 @@ body {
   padding: 30px;
   margin: 0 0 30px;
   position: relative;
-  background: #f5f5f9;
+  background: #ffffff;
 }
 
 .hb-testimonialcontentbox:after {
@@ -11353,4 +11352,15 @@ body {
   66% {
     opacity: 0;
   }
+}
+
+/* New Code  */
+body{
+  background-color: beige !important;
+}
+footer{
+  background-color: beige !important;
+}
+.owl-carousel .owl-stage-outer{
+  background-color: #F5F5F5 !important;
 }
