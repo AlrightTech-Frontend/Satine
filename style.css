@@ -11364,3 +11364,10 @@ footer{
 .owl-carousel .owl-stage-outer{
   background-color: #F5F5F5 !important;
 }
+::selection{
+  background-color :  #8BA8A8 !important;
+  color: white;
+}
+figure img{
+  filter: grayscale(75%) !important;
+}
