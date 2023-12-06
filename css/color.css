@@ -22,7 +22,6 @@ a:active,
 .hb-homeslider.v4 .hb-slidercontent a:hover,
 .hb-whychooseus-list li:after,
 .hb-counter h3,
-.pricingcontent h3 span,
 .hb-pricingbox:hover .hb-btn,
 .hb-pricingbox.active .hb-btn,
 .hb-uthername h3,
@@ -63,6 +62,9 @@ a:active,
 }
  
 
+.pricingcontent h3 span:hover{
+	color: #ffffff !important;
+}
 
 
 
@@ -94,7 +96,11 @@ color:#D4AF37;
 
 
 
- {color: #7ac284;}
+ {
+	color: #7ac284;
+
+
+}
 /*=============================================
 			Theme Background Color
 =============================================*/
@@ -109,10 +115,13 @@ color:#D4AF37;
 
 	color: #333333;
 }
-
-
-
-.hb-btn,
+.hb-btn{
+	background: #d4af37;
+}
+.pricingcontent .hb-btn:hover{
+	background: #ffff !important;
+	color: #0000 !important;
+}
 .hb-socialicons li a, 
 .hb-socialicons.hb-socialicons-sm li a:hover,
 .hb-cart li .hb-btn.changehover:hover,
@@ -133,16 +142,18 @@ color:#D4AF37;
 	
 	/* background-image: linear-gradient(to right,#aaaaff 0%,#fcbaf8 51%,#aaaaff 100%); */
 
-	 background-color: #8BA8A8;
+	 background-color: rgb(53, 57, 67);
 ;
 }
 
-
+.hb-pricingbox:hover{
+	background: #d4af37 !important;
+	color: white !important;
+}
 
 .hb-topbar,
 .hb-footer.v2 .hb-info li:before,
 .hb-footer.v2 .hb-info li a:hover,
-.hb-pricingbox:hover,
 .hb-pricingbox.active,
 .countdownHolder:after,
 .hb-comingsooncounter:after,
