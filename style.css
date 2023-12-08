@@ -1300,7 +1300,7 @@ address {
   text-align: center;
   position: absolute;
   margin: 0 0 0 -40px;
-  background: beige url("../images/heading-icon.html") no-repeat 50%;
+  background: #CAC3BA url("../images/heading-icon.html") no-repeat 50%;
 }
 
 .hb-sectiontitle h2 {
@@ -1520,7 +1520,7 @@ address {
 }
 
 .hb-bg .hb-sectiontitle:after {
-  background-color: beige ;
+  background-color: #CAC3BA !important; ;
 }
 
 /* ---------------------------------------------------------
@@ -6599,7 +6599,7 @@ body {
 			Home Slider Style					
 ============================================= */
 .hb-homeslider.v2 {
-  background: #fefefe;
+  background: #ffff;
 }
 
 .hb-homeslider.v2 .hb-sliderimg {
@@ -7828,7 +7828,7 @@ body {
   position: absolute;
   margin: 0 0 0 -87px;
   border-radius: 100%;
-  border: 10px solid rgba(225, 225, 225, 0.7);
+  border: 4px solid #8BA8A8;
 }
 
 .hb-teamimg img {
@@ -11356,10 +11356,10 @@ body {
 
 /* New Code  */
 body{
-  background-color: beige !important;
+  background-color: #CAC3BA !important;
 }
 footer{
-  background-color: beige !important;
+  background-color: #CAC3BA !important;
 }
 .owl-carousel .owl-stage-outer{
   background-color: #F5F5F5 !important;
