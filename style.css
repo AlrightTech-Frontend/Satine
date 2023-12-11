@@ -6829,6 +6829,8 @@ body {
   margin: 0 0 0 -110px;
   border-radius: 100%;
   
+
+  
   border: 10px solid   rgba(212, 175, 55, 1);;
   /* border: 10px solid rgba(225, 225, 225, 0.7); */
 }
@@ -6837,6 +6839,7 @@ body {
   display: block;
   margin: 0 auto;
   border-radius: 100%;
+
 }
 
 .hb-imagecontent {
