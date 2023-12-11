@@ -23,7 +23,7 @@ a:active,
 .hb-whychooseus-list li:after,
 .hb-counter h3,
 .hb-pricingbox:hover .hb-btn,
-.hb-pricingbox.active .hb-btn,
+
 .hb-uthername h3,
 .hb-filterbale-nav li a:hover,
 .hb-filterbale-nav li a.active,
@@ -61,11 +61,7 @@ a:active,
 
 }
  
-
-.pricingcontent h3 span:hover{
-	color: #ffffff !important;
-}
-
+ 
 
 
 .v2 .hb-info li i{
@@ -118,9 +114,9 @@ color:#D4AF37;
 .hb-btn{
 	background: #d4af37;
 }
-.pricingcontent .hb-btn:hover{
-	background: #ffff !important;
-	color: #0000 !important;
+.pricingcontent:hover .hb-btn{
+border: 2px solid #d4af37 !important;
+ 
 }
 .hb-socialicons li a, 
 .hb-socialicons.hb-socialicons-sm li a:hover,
@@ -147,14 +143,14 @@ background-color: #7B6D5E;
 }
 
 .hb-pricingbox:hover{
-	background: #d4af37 !important;
-	color: white !important;
+ 
+	color: #d4af37 !important;
 }
 
 .hb-topbar,
 .hb-footer.v2 .hb-info li:before,
 .hb-footer.v2 .hb-info li a:hover,
-.hb-pricingbox.active,
+
 .countdownHolder:after,
 .hb-comingsooncounter:after,
 .hb-testimonialbox:hover .hb-testimonialcontentbox,
